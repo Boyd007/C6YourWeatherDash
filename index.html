@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <title>Low Pressure: A Weather Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>Personal Weather Dashboard</h1>
+    </header>
+
+    <div id="search-bar">
+      <section id="search-cities">
+        <form>
+          <input id="search-input" type="search" />
+          <button id="search-button">Search</button>
+        </form>
+      </section>
+
+      <section id="prev-cities">
+        <form>
+          <button class="prev-city hide">Past Search</button>
+          <button class="prev-city hide">Past Search</button>
+          <button class="prev-city hide">Past Search</button>
+          <button class="prev-city hide">Past Search</button>
+          <button class="prev-city hide">Past Search</button>
+        </form>
+      </section>
+    </div>
+
+    <div id="city-weather">
+      <div>
+        <h3 id="todays-city"></h3>
+        <p><span id="todays-date"></span> | <span id="todays-icon"></span></p>
+        <p>Temperature: <span id="todays-temp"></span>°F</p>
+        <p>Wind: <span id="todays-wind"></span>km/h</p>
+        <p>Humidity: <span id="todays-humid"></span>%</p>
+        <p>UV Index: <span id="todays-uvi"></span></p>
+      </div>
+    </div>
+
+    <div id="daily-forecast">
+      <div>
+        <h3>5 Day Forecast</h3>
+        <section>
+          <p>
+            <span class="five-day-dates"></span> |
+            <span class="five-day-icon"></span> | Temp:
+            <span class="five-day-temp"></span>°C | Wind:
+            <span class="five-day-wind"></span>km/h | Humidity:
+            <span class="five-day-humid"></span>%
+          </p>
+        </section>
+        <section>
+          <p>
+            <span class="five-day-dates"></span> |
+            <span class="five-day-icon"></span> | Temp:
+            <span class="five-day-temp"></span>°C | Wind:
+            <span class="five-day-wind"></span>km/h | Humidity:
+            <span class="five-day-humid"></span>%
+          </p>
+        </section>
+        <section>
+          <p>
+            <span class="five-day-dates"></span> |
+            <span class="five-day-icon"></span> | Temp:
+            <span class="five-day-temp"></span>°C | Wind:
+            <span class="five-day-wind"></span>km/h | Humidity:
+            <span class="five-day-humid"></span>%
+          </p>
+        </section>
+        <section>
+          <p>
+            <span class="five-day-dates"></span> |
+            <span class="five-day-icon"></span> | Temp:
+            <span class="five-day-temp"></span>°C | Wind:
+            <span class="five-day-wind"></span>km/h | Humidity:
+            <span class="five-day-humid"></span>%
+          </p>
+        </section>
+        <section>
+          <p>
+            <span class="five-day-dates"></span> |
+            <span class="five-day-icon"></span> | Temp:
+            <span class="five-day-temp"></span>°C | Wind:
+            <span class="five-day-wind"></span>km/h | Humidity:
+            <span class="five-day-humid"></span>%
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
