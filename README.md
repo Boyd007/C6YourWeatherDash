@@ -8,7 +8,7 @@ Your Weather Dash is a personal weather dashboard that supplies valuable weather
 
 <img width="737" alt="image" src="https://user-images.githubusercontent.com/105176171/177435143-55a646e2-4d0f-4e21-b009-339ba30cb9ad.png">
 
-The above criteria is fully met as per the below sample.  Unfortunately there is slight issue with recalling a previous city populated in the buttons below the search bar. 
+The above criteria is fully met as per the below sample.  Unfortunately there is slight issue with recalling a previous city populated in the buttons below the search bar, however the data does save locally. 
 
 ## Sample
 
