@@ -16,11 +16,16 @@ $(function () {
     "Abbotsford",
     "Boston",
     "Calgary",
-    "Edmonoton",
+    "Edmonton",
     "New York",
     "Salt Lake City",
     "Toronto",
     "Vancouver",
+    "Dartmouth",
+    "Queensland",
+    "Ottawa",
+    "Las Vegas",
+    "Los Angeles",
   ];
   $("#search-input").autocomplete({
     source: citiesSearch,
