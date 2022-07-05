@@ -15,11 +15,9 @@ Your Weather Dash is a personal weather dashboard that supplies valuable
 * HTML
 * CSS
 * JS
-* Socket.io
-* SQL
-* Express js
-* Insomnia
-* Handlebars js
+* JQuery
+* Google Fonts API
+* Moment JS
 
 ## Deployment
 
