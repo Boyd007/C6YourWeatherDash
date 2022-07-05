@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Gill Sans", sans-serif;  
+  font-family: 'Teko', sans-serif;  
   background-image: url("backgroundcloud.jpeg");
 }
 
@@ -20,8 +20,8 @@ header {
 }
 
 header h1 {
-  margin: 15px auto;
-  font-family: 'Teko', sans-serif;  font-size: 55px;
+  margin: 10px auto;
+  font-family: 'Teko', sans-serif;  font-size: 30px;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #000000;
@@ -46,7 +46,7 @@ header h1 {
 }
 
 #search-bar #search-cities #search-input {
-  font-family: "Copperhead", sans-serif;
+  font-family: 'Teko', sans-serif;  font-size: 30px;
   letter-spacing: 1px;
   width: 400px;
   height: 40px;
@@ -54,7 +54,7 @@ header h1 {
   margin-right: 25px;
   border: 1px solid black;
   border-radius: 7px;
-  box-shadow: 5px 5px #000000;
+  box-shadow: 1px 1px #000000;
 }
 
 #search-bar button {
@@ -66,7 +66,7 @@ header h1 {
   height: 40px;
   padding: 10px;
   border-radius: 7px;
-  box-shadow: 5px 5px #000000;
+  box-shadow: 3px 3px #000000;
 }
 
 #search-bar button:hover {
@@ -91,19 +91,18 @@ header h1 {
   padding: 25px;
   border: 1px solid black;
   border-radius: 7px;
-  box-shadow: 5px 5px #234bdb;
-  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px #0e0e0f;
 }
 
 #city-weather div h3,
 #daily-forecast div h3 {
   display: inline;
-  font-size: 35px;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: black;
   -webkit-text-stroke: 1px black;
-  text-shadow: 3px 3px #244bd7;
+  text-shadow: 1px 1px #010101;
 }
 
 #city-weather div p {
@@ -113,10 +112,10 @@ header h1 {
 }
 
 #city-weather div .uvi-danger {
-  border: 2px solid white;
+  border: 2px solid rgb(160, 161, 162);
   margin: 0 0 0 10px;
   padding: 5px;
-  color: white;
+  color: rgb(194, 194, 195);
   font-size: 12px;
   font-weight: bold;
   border-radius: 10px;
@@ -159,8 +158,8 @@ header h1 {
   padding: 25px;
   border: 1px solid black;
   border-radius: 7px;
-  box-shadow: 5px 5px #1b46e0;
-  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px #040404;
+  background-color: #f6fcfd;
 }
 
 #daily-forecast div h3 {
